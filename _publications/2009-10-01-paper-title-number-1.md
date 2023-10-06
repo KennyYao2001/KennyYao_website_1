@@ -3,7 +3,7 @@ title: "Towards Subcentimeter Accuracy Digital-Twin Tracking via An RGBD-based T
 collection: publications
 permalink: /publication/2009-10-01-paper-title-number-1
 excerpt: ''
-date: 2023
+date: 2023-9-1
 venue: ''
 paperurl: 'http://academicpages.github.io/files/paper1.pdf'
 citation: 'Huang, Z.*, Yao, K.*, Zhao, S. Z.*, Pan, C.*, Xu, T., Feng, W., & Yang, A. Y. (2023). Towards Subcentimeter Accuracy Digital-Twin Tracking via An RGBD-based Transformer Model and A Comprehensive Mobile Dataset. arXiv preprint arXiv:2309.13570.'
