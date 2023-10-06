@@ -1,7 +1,7 @@
 ---
 permalink: /
 title: "Kenny Yao"
-excerpt: "About Kenny"
+excerpt: "About Me"
 author_profile: true
 redirect_from: 
   - /about/
@@ -9,13 +9,15 @@ redirect_from:
 ---
 
 
-Hi there <img src='https://github-production-user-asset-6210df.s3.amazonaws.com/24524555/238178097-766d336d-b87d-44ba-807c-c51de2bc6b4d.gif' alt='GIF示例' style='width: auto; height: 1em;'>, I'm Kenny YAO"
+# Hi there <img src='https://github-production-user-asset-6210df.s3.amazonaws.com/24524555/238178097-766d336d-b87d-44ba-807c-c51de2bc6b4d.gif' alt='GIF示例' style='width: auto; height: 1em;'>,
 
-I am currently a **Data Science major** undergraduate from the School of Data Science at the Chinese University of Hong Kong, Shenzhen. My professional and research interest lies in Computer Vision and Robotics Learning, aiming to enhance robots' 3D perception. I have the honor of being advised by [Prof. Allen Yang](https://vivecenter.berkeley.edu/people/allen-y-yang/) from the OpenARK Lab at the Department of EECS, University of California, Berkeley. I was also honored to be advised by [Dr. Jianlong Fu](https://jianlong-fu.github.io/) from the Multimedia Search and Mining Group, at Microsoft Research Asia, Beijing, China. My research areas include 6D pose estimation, Robotics Pertaining, and Reinforcement Learning. I would like to explore more interesting areas in 3D and robotics in the future!
+I am currently a **Data Science major** undergraduate from the School of Data Science at the Chinese University of Hong Kong, Shenzhen. 
 
-Research Interest: 3D Computer Vision, 6D pose estimation, Robotics Pertaining, Reinforcement Learning, and VR/AR/MR
+My professional and research interest lies in Computer Vision and Robotics Learning, aiming to enhance robots' 3D perception. I have the honor of being advised by [Prof. Allen Yang](https://vivecenter.berkeley.edu/people/allen-y-yang/) from the OpenARK Lab at the Department of EECS, University of California, Berkeley. I was also honored to be advised by [Dr. Jianlong Fu](https://jianlong-fu.github.io/) from the Multimedia Search and Mining Group, at Microsoft Research Asia, Beijing, China. My research areas include 6D pose estimation, Robotics Pertaining, and Reinforcement Learning. I would like to explore more interesting areas in 3D and robotics in the future!
 
-You can find my [CV](../assets/Curriculum_Vitae.pdf) here!
+**Research Interest**: 3D Computer Vision, 6D pose estimation, Robotics Pertaining, Reinforcement Learning, and VR/AR/MR
+
+**You can find my [CV](../assets/Curriculum_Vitae.pdf) here**!
 
 Contact: [kelingyao@link.cuhk.edu.cn](mailto:kelingyao@link.cuhk.edu.cn)
 
