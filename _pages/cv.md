@@ -17,10 +17,10 @@ Education
 Research experience
 ======
 * Research Assistant - Microsoft Research Asia
-  * Supervisor: Dr. Jianlong Fu, Senior Research Manager, Multimedia Search and Mining Group at Microsoft Research Asia, Beijing, China Beijing, China
-  • Published a real-world multi-modal imitation learning policy model to address a generalization of pick-and-place robot manipulation tasks.
-  • Accomplished independently a 30Hz robotic manipulation paradigm involving VR teleportation, control of dexterous hands, and Franka robot arm.
-  • Contributed to the design of the model by utilizing Vision Foundation Models and multi-modal fusion of semantic, geometric, and temporal observations, achieving sample-efficient generalization learning with an overall accuracy of 81.25%.
+  * Supervisor: Dr. Jianlong Fu, Senior Research Manager, Multimedia Search and Mining Group at Microsoft Research Asia, Beijing, China Beijing, China\\
+  • Published a real-world multi-modal imitation learning policy model to address a generalization of pick-and-place robot manipulation tasks.\\
+  • Accomplished independently a 30Hz robotic manipulation paradigm involving VR teleportation, control of dexterous hands, and Franka robot arm.\\
+  • Contributed to the design of the model by utilizing Vision Foundation Models and multi-modal fusion of semantic, geometric, and temporal observations, achieving sample-efficient generalization learning with an overall accuracy of 81.25%.\\
 * Research Assistant - Berkeley OpenARK Lab December 2022 – Present
   * Supervisor: Prof. Allen Yang, Executive Director of FHL Vive Center for Enhanced Reality, UC Berkeley, US Berkeley, United States
   • Published an RGBD-based 6DoF pose estimation paradigm for Digital Twin applications, withstanding the low-quality depth data in mobile devices.
