@@ -8,14 +8,24 @@ redirect_from:
   - /about.html
 ---
 
-I'm a **Data Science major** undergraduate from [the Chinese University of Hong Kong, Shenzhen](https://www.cuhk.edu.cn/en). 
 
-- 🔭 I’m currently working at Berkeley OpenARK Lab and MSRA Robotics.
-- 🌱 I’m currently learning robotics, LLM, 6D pose estimation, and 3D reconstruction.
+About me
+Hi, I am currently an MEng student in the department of Electronic Engineering and Computer Science at UC Berkeley. Before joining UCBerkeley, I received my bachelor's degree in Computer Science and Technology at Tsinghua University (Beijing, China). My professional and research interest lies in Computer Graphics and 3D Vision, aiming to enhance machines' 3D perception and create Mixed Reality. My research areas include 3D object tracking, 3D reconstruction, and avatar creation. I would like to explore more interesting areas in 3D in the future!
 
-I have the honor of being advised by [Prof. Allen Yang](https://vivecenter.berkeley.edu/people/allen-y-yang/) from the OpenARK Lab at the [Department of EECS](https://eecs.berkeley.edu/), University of California, Berkeley. I was also honored to be advised by [Dr. Jianlong Fu](https://jianlong-fu.github.io/) from the [Multimedia Search and Mining Group](https://www.microsoft.com/en-us/research/group/multimedia-search-and-mining/), at Microsoft Research Asia, Beijing, China.
+   Master Student of EECS, University of California Berkeley
 
-You can find my CV here: [Kenny YAO's Curriculum Vitae](../assets/Curriculum_Vitae.pdf).
+   Berkeley, California, United States
+
+   chuanyu_pan@berkeley.edu
+
+   Research Interest: 3D Computer Vision, Computer Graphics, VR/AR/MR
+
+
+
+I am currently a **Data Science major** undergraduate from the School of Data Science at the Chinese University of Hong Kong, Shenzhen. My professional and research interest lies in Computer Vision and Robotics Learning, aiming to enhance robots' 3D perception. I have the honor of being advised by [Prof. Allen Yang](https://vivecenter.berkeley.edu/people/allen-y-yang/) from the OpenARK Lab at the Department of EECS, University of California, Berkeley. I was also honored to be advised by [Dr. Jianlong Fu](https://jianlong-fu.github.io/) from the Multimedia Search and Mining Group, at Microsoft Research Asia, Beijing, China. My research areas include 6D pose estimation, Robotics Pertaining, and Reinforcement Learning. I would like to explore more interesting areas in 3D and robotics in the future!
+
+
+You can find my [CV](../assets/Curriculum_Vitae.pdf) here!
 
 Contact: [kelingyao@link.cuhk.edu.cn](mailto:kelingyao@link.cuhk.edu.cn)
 
