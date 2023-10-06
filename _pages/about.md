@@ -8,12 +8,12 @@ redirect_from:
   - /about.html
 ---
 
-I'm a **Data Science major** undergraduate from [the Chinese University of Hong Kong, Shenzhen](https://www.pku.edu.cn/). 
+I'm a **Data Science major** undergraduate from [the Chinese University of Hong Kong, Shenzhen](https://www.cuhk.edu.cn/en). 
 
 - 🔭 I’m currently working at Berkeley OpenARK Lab and MSRA Robotics.
 - 🌱 I’m currently learning robotics, LLM, 6D pose estimation, and 3D reconstruction.
 
-I have the honor of being advised by [Prof. Allen Yang](https://www.XXX.com/) from the OpenARK Lab at the [Department of EECS](https://cs.pku.edu.cn/), University of California, Berkeley. I was also honored to be advised by [Dr. Jianlong Fu](https://XXX.pku.edu.cn/) from the [Multimedia Search and Mining Group](https://cs.pku.edu.cn/), at Microsoft Research Asia, Beijing, China.
+I have the honor of being advised by [Prof. Allen Yang](https://vivecenter.berkeley.edu/people/allen-y-yang/) from the OpenARK Lab at the [Department of EECS](https://eecs.berkeley.edu/), University of California, Berkeley. I was also honored to be advised by [Dr. Jianlong Fu](https://jianlong-fu.github.io/) from the [Multimedia Search and Mining Group](https://www.microsoft.com/en-us/research/group/multimedia-search-and-mining/), at Microsoft Research Asia, Beijing, China.
 
 You can find my CV here: [Kenny YAO's Curriculum Vitae](../assets/Curriculum_Vitae.pdf).
 
