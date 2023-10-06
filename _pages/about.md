@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Hi there <img src='https://github-production-user-asset-6210df.s3.amazonaws.com/24524555/238178097-766d336d-b87d-44ba-807c-c51de2bc6b4d.gif' alt='GIF示例' style='width: auto; height: 1em;'>, I'm Kenny YAO"
+title: "Kenny Yao"
 excerpt: "About Kenny"
 author_profile: true
 redirect_from: 
@@ -9,21 +9,11 @@ redirect_from:
 ---
 
 
-About me
-Hi, I am currently an MEng student in the department of Electronic Engineering and Computer Science at UC Berkeley. Before joining UCBerkeley, I received my bachelor's degree in Computer Science and Technology at Tsinghua University (Beijing, China). My professional and research interest lies in Computer Graphics and 3D Vision, aiming to enhance machines' 3D perception and create Mixed Reality. My research areas include 3D object tracking, 3D reconstruction, and avatar creation. I would like to explore more interesting areas in 3D in the future!
-
-   Master Student of EECS, University of California Berkeley
-
-   Berkeley, California, United States
-
-   chuanyu_pan@berkeley.edu
-
-   Research Interest: 3D Computer Vision, Computer Graphics, VR/AR/MR
-
-
+Hi there <img src='https://github-production-user-asset-6210df.s3.amazonaws.com/24524555/238178097-766d336d-b87d-44ba-807c-c51de2bc6b4d.gif' alt='GIF示例' style='width: auto; height: 1em;'>, I'm Kenny YAO"
 
 I am currently a **Data Science major** undergraduate from the School of Data Science at the Chinese University of Hong Kong, Shenzhen. My professional and research interest lies in Computer Vision and Robotics Learning, aiming to enhance robots' 3D perception. I have the honor of being advised by [Prof. Allen Yang](https://vivecenter.berkeley.edu/people/allen-y-yang/) from the OpenARK Lab at the Department of EECS, University of California, Berkeley. I was also honored to be advised by [Dr. Jianlong Fu](https://jianlong-fu.github.io/) from the Multimedia Search and Mining Group, at Microsoft Research Asia, Beijing, China. My research areas include 6D pose estimation, Robotics Pertaining, and Reinforcement Learning. I would like to explore more interesting areas in 3D and robotics in the future!
 
+Research Interest: 3D Computer Vision, 6D pose estimation, Robotics Pertaining, Reinforcement Learning, and VR/AR/MR
 
 You can find my [CV](../assets/Curriculum_Vitae.pdf) here!
 
