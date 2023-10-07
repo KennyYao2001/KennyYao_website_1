@@ -1,4 +1,6 @@
 {% include base_path %}
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+
 
 {% if post.header.teaser %}
   {% capture teaser %}{{ post.header.teaser }}{% endcapture %}
@@ -56,7 +58,7 @@
     {% endif %}
   
     {% if post.paperurl %}
-      <p style="margin-top: -20px;"> <a href=" {{ post.paperurl }} "><u>[paper]</u></a></p>
+      <p style="margin-top: -20px;"><a href="{{ pdf }}"><u>[<i class="fas fa-file-alt"></i> paper]</u></a></p>
     {% endif %}
 
   </article>
