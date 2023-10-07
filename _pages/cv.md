@@ -12,23 +12,22 @@ redirect_from:
 
 Education
 ======
+**The Chinese University of Hong Kong, Shenzhen**  
+B.S. in Data Science and Big Data Technology, 2020-2024
 
-**B.S. in Data Science and Big Data Technology**  
-The Chinese University of Hong Kong, Shenzhen, 2020-2024
-
-**Exchange Student in Computer Science**  
-University of California, Berkeley, 2022-2023
-
+**University of California, Berkeley**  
+Exchange Student in Computer Science, 2022-2023
 
 Research Experience
 ======
-
 **Transferring Foundation Models for Generalizable Robotic Manipulation @ Microsoft Research Asia**     
 June 2023 – Present  
-* _**Research Assistant**, supervised by Dr. Jianlong Fu, Senior Research Manager, Multimedia Search and Mining Group at Microsoft Research Asia, Beijing, China_
-* Published a real-world multi-modal imitation learning policy model to address a generalization of pick-and-place robot manipulation tasks.
-* Accomplished a 30Hz robotic manipulation paradigm involving VR teleportation, control of dexterous hands, and Franka robot arm.
-* Contributed to the model's design using Vision Foundation Models and multi-modal fusion, achieving 81.25% accuracy.
+<ul style="margin-top: -10px; margin-bottom: -10px;">
+<li><i><strong>Research Assistant</strong>, supervised by Dr. Jianlong Fu, Senior Research Manager, Multimedia Search and Mining Group at Microsoft Research Asia, Beijing, China</i></li>
+<li>Published a real-world multi-modal imitation learning policy model to address a generalization of pick-and-place robot manipulation tasks.</li>
+<li>Accomplished a 30Hz robotic manipulation paradigm involving VR teleportation, control of dexterous hands, and Franka robot arm.</li>
+<li>Contributed to the model's design using Vision Foundation Models and multi-modal fusion, achieving 81.25% accuracy.</li>
+</ul>
 
 **Towards Robust Mobile Digital-Twin Tracking @ Berkeley OpenARK Lab**   
 December 2022 – Present  
