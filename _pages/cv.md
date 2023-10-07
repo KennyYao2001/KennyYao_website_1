@@ -24,6 +24,7 @@ Research Experience
 ======
 
 **Transferring Foundation Models for Generalizable Robotic Manipulation @ Microsoft Research Asia** 
+
 June 2023 – Present
 
 * _**Research Assistant**, supervised by Dr. Jianlong Fu, Senior Research Manager, Multimedia Search and Mining Group at Microsoft Research Asia, Beijing, China_
@@ -32,6 +33,7 @@ June 2023 – Present
 * Contributed to the model's design using Vision Foundation Models and multi-modal fusion, achieving 81.25% accuracy.
 
 **Towards Robust Mobile Digital-Twin Tracking @ Berkeley OpenARK Lab** 
+
 December 2022 – Present
 
 * _**Research Assistant**, supervised by Prof. Allen Yang, Executive Director of FHL Vive Center for Enhanced Reality_
@@ -41,6 +43,7 @@ December 2022 – Present
 * Contributed to a Transformer-based 6DoF pose estimator.
 
 **Facial Recognition and Interaction Robotics @ Robot Laboratory of South China University of Technology**
+
 May 2022 – September 2022
 
 * _**Research Assistant**, supervised by Prof. Zhijun Zhang, South China University of Technology_
@@ -48,6 +51,7 @@ May 2022 – September 2022
 * Developed a conversational software for robots to recognize faces.
 
 **Machine Learning in Protein-Ligand Docking @ Shenzhen Key Laboratory of Steroid Drug Research**
+
 June 2021 – January 2022
 
 * _**Research Assistant**, supervised by Prof. Baoting Zhu, the Chinese University of Hong Kong_
