@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Kenny Yao / Personal Page"
 title_separator          : "-"
 name                     : &name "Kenny Yao"
-description              : &description "Deep Learning | LLM @ CUHKSZ @ UC Berkeley"
+description              : &description "Computer Vision | Robotics @ CUHKSZ @ UC Berkeley"
 url                      : https://kennyyao2001.github.io/ # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "KennyYao2001/KennyYao2001.github.io"
@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Kenny Yao"
   avatar           : "profile.png"
-  bio              : "Deep Learning | LLM @ CUHKSZ @ UC Berkeley"
+  bio              : "Computer Vision | Robotics @ CUHKSZ @ UC Berkeley"
   location         : "United States"
   employer         :
   pubmed           : 
