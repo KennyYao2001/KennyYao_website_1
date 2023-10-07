@@ -8,6 +8,7 @@ redirect_from:
   - /about.html
 ---
 
+<img align="right" src="images/profile.jpeg" alt="Photo" style="width: 210px; border-radius: 10px; padding: 8px 8px 8px 8px"/>
 
 Hi there <img src='https://github-production-user-asset-6210df.s3.amazonaws.com/24524555/238178097-766d336d-b87d-44ba-807c-c51de2bc6b4d.gif' alt='GIF示例' style='width: auto; height: 1em;'>, I am currently a **Data Science major** undergraduate from the School of Data Science at **the Chinese University of Hong Kong, Shenzhen**. In 2022, I was a visiting student at the Department of EECS, **University of California, Berkeley**. 
 
