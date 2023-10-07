@@ -81,7 +81,7 @@ analytics:
 # Site Author
 author:
   name             : "Kenny Yao"
-  avatar           : 
+  avatar           : "profile.png"
   bio              : "Deep Learning | LLM @ CUHKSZ @ UC Berkeley"
   location         : "United States"
   employer         :
