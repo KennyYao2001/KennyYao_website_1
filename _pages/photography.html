@@ -1,8 +1,64 @@
 ---
 layout: archive
-title: "photography"
+title: "Photography"
 permalink: /photography/
-author_profile: false
+author_profile: true
+redirect_from: 
 ---
 
-{% include base_path %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title }}</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f4f4f4;
+        }
+        .header {
+            background: #333;
+            color: #fff;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 10px;
+        }
+        .photo {
+            margin: 10px;
+            box-shadow: 0 0 5px #333;
+            transition: transform 0.2s;
+        }
+        .photo:hover {
+            transform: scale(1.1);
+        }
+        img {
+            width: 300px;
+            height: 200px;
+            object-fit: cover;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>{{ page.title }}</h1>
+    </div>
+    <div class="gallery">
+        {% include base_path %}
+        {% for image in site.static_files %}
+            {% if image.path contains 'images/photography/' %}
+                <div class="photo">
+                    <img src="{{ site.baseurl }}{{ image.path }}" alt="{{ image.basename }}" />
+                </div>
+            {% endif %}
+        {% endfor %}
+    </div>
+</body>
+</html>
