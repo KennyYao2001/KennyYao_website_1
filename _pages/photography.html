@@ -25,8 +25,7 @@ redirect_from:
         padding: 10px;
     }
     .photo {
-        width: 100%;
-        max-width: 300px; /* Adjust the maximum width as needed */
+        width: 300px; /* 设置photo的宽度 */
         margin: 10px;
         box-shadow: 0 0 5px #333;
         transition: transform 0.2s;
@@ -39,10 +38,9 @@ redirect_from:
         transform: scale(1.1);
     }
     img {
-        width: auto; /* Allows the image to scale proportionally */
-        height: auto;
-        max-height: 200px; /* Adjust the maximum height as needed */
-        object-fit: contain;
-        border: 1px solid #ccc; /* Optional: adds a border around images */
+        max-width: 100%; /* 限制图片最大宽度为100% */
+        height: auto; /* 保持图片高度自动调整 */
+        object-fit: contain; /* 图片内容将被缩放以保持其宽高比，同时完全适配内容框 */
+        border: 1px solid #ccc;
     }
 </style>
