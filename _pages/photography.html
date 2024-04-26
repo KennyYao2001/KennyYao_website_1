@@ -1,17 +1,19 @@
 ---
 layout: archive
-title: "Photography"
+title: ""
 permalink: /photography/
 author_profile: false
 redirect_from: 
 ---
 
+{% include base_path %}
 
 <div class="gallery">
     {% for image in site.static_files %}
         {% if image.path contains 'images/photography/' %}
             <div class="photo">
-                <img src="{{ site.baseurl }}{{ image.path }}" alt="{{ image.basename }}">
+                <!-- Update the src attribute to data-src for lazy loading -->
+                <img class="lazy" data-src="{{ site.baseurl }}{{ image.path }}" alt="{{ image.basename }}">
             </div>
         {% endif %}
     {% endfor %}
@@ -38,3 +40,30 @@ redirect_from:
         object-fit: cover;
     }
 </style>
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    var lazyImages = [].slice.call(document.querySelectorAll("img.lazy"));
+    if ("IntersectionObserver" in window) {
+        let lazyImageObserver = new IntersectionObserver(function(entries, observer) {
+            entries.forEach(function(entry) {
+                if (entry.isIntersecting) {
+                    let lazyImage = entry.target;
+                    lazyImage.src = lazyImage.dataset.src;
+                    lazyImage.classList.remove("lazy");
+                    lazyImageObserver.unobserve(lazyImage);
+                }
+            });
+        });
+
+        lazyImages.forEach(function(lazyImage) {
+            lazyImageObserver.observe(lazyImage);
+        });
+    } else {
+        // Fallback for browsers that do not support IntersectionObserver
+        lazyImages.forEach(function(lazyImage) {
+            lazyImage.src = lazyImage.dataset.src;
+        });
+    }
+});
+</script>
