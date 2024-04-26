@@ -11,51 +11,7 @@ author_profile: true
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Research Portfolio</title>
-<style>
-    body {
-        font-family: Arial, sans-serif;
-        margin: 0;
-        padding: 0;
-        background: #f4f4f4;
-    }
-    .container {
-        width: 80%;
-        margin: auto;
-        overflow: hidden;
-    }
-    .header,
-    .paper {
-        background: #fff;
-        padding: 20px;
-        margin-bottom: 20px;
-        border-radius: 8px;
-    }
-    .paper img {
-        max-width: 100%;
-        height: auto;
-        border-radius: 8px;
-    }
-    .paper-title {
-        font-size: 20px;
-        color: #333;
-    }
-    .authors {
-        font-size: 16px;
-        color: #666;
-    }
-    .paper-link {
-        text-decoration: none;
-        color: #1a0dab;
-    }
-    .paper-link:hover {
-        text-decoration: underline;
-    }
-    .project-details {
-        font-size: 14px;
-        color: #333;
-        margin-top: 5px;
-    }
-</style>
+<link href="https://fonts.googleapis.com/css?family=Lato:400,400i,700,700i&display=swap" rel="stylesheet">
 </head>
 <body>
 <div class="container">
@@ -67,7 +23,7 @@ author_profile: true
     <!-- Paper 1 -->
     <div class="paper">
         <!-- Replace with your actual image source -->
-        <img src="path_to_your_image_paper1.jpg" alt="Transferring Foundation Models">
+        <img src="/images/wechat.jpg" alt="Transferring Foundation Models">
         <p class="paper-title">Transferring Foundation Models for Generalizable Robotic Manipulation</p>
         <p class="authors">Yang, J., Tan, W., Jin, C., Yao, K., Liu, B., Fu, J., Song, R., & Wang, L.</p>
         <p class="project-details">Improving the generalization capabilities of general-purpose robotic manipulation agents in the real world...</p>
@@ -80,7 +36,7 @@ author_profile: true
     <!-- Paper 2 -->
     <div class="paper">
         <!-- Replace with your actual image source -->
-        <img src="path_to_your_image_paper2.jpg" alt="Digital-Twin Tracking">
+        <img src="/images/wechat.jpg" alt="Digital-Twin Tracking">
         <p class="paper-title">Towards Subcentimeter Accuracy Digital-Twin Tracking via An RGBD-based Transformer Model and A Comprehensive Mobile Dataset</p>
         <p class="authors">Huang, Z.*, Yao, K.*, Zhao, S. Z.*, Pan, C.*, Xu, T., Feng, W., & Yang, A. Y.</p>
         <p class="project-details">The potential of digital-twin technology, involving the creation of precise digital replicas of physical objects, to reshape AR experiences...</p>
@@ -91,5 +47,50 @@ author_profile: true
     </div>
 
 </div>
+
+<!-- Styles for the page -->
+<style>
+/* Existing site styles */
+/* ...Your existing styles... */
+
+/* Styles for the research papers section */
+.paper {
+    background: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+.paper img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.paper-title {
+    font-size: 20px;
+    color: #333;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+}
+
+.authors, .project-details {
+    font-size: 14px;
+    color: #666;
+    font-family: 'Lato', sans-serif;
+}
+
+.paper-link {
+    text-decoration: none;
+    color: #1772d0;
+    font-family: 'Lato', sans-serif;
+}
+
+.paper-link:hover {
+    color: #f09228;
+    text-decoration: underline;
+}
+</style>
+
 </body>
 </html>
