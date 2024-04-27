@@ -13,7 +13,7 @@ author_profile: true
   <meta name="author" content="Kenny Yao">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" href="../images/favicon/favicon.ico" type="image/x-icon">
-  <link rel="stylesheet" href="/_pages/stylesheet.css">
+  <link rel="stylesheet" href="stylesheet.css">
 </head>
 <body>
   <table style="width:100%; border:0; border-collapse:collapse; margin:auto;">
@@ -30,26 +30,13 @@ author_profile: true
           </tr>
         </table>
         <table style="width:100%; border:0; border-collapse:collapse; margin:auto;">
-          <tr style="background-color:#ffffff;" onmouseover="MSRA_start()" onmouseout="MSRA_stop()">
+          <tr style="background-color:#ffffff;">
             <td style="padding:20px;">
               <div class="one">
-                <div class="two" id="MSRA_image">
-                  <video width="100%" height="100%" muted autoplay loop>
-                    <source src="../images/recon.mp4" type="video/mp4">
-                    Your browser does not support the video tag.
-                  </video>
+                <div class="two">
                   <img src="../images/MSRA.png" width="160">
                 </div>
               </div>
-              <script type="text/javascript">
-                function MSRA_start() {
-                  document.getElementById('MSRA_image').style.opacity = "1";
-                }
-                function MSRA_stop() {
-                  document.getElementById('MSRA_image').style.opacity = "0";
-                }
-                MSRA_stop();
-              </script>
             </td>
             <td style="padding:20px;">
               <a href="https://arxiv.org/abs/2306.05716">
@@ -67,22 +54,13 @@ author_profile: true
               </p>
             </td>
           </tr>
-          <tr style="background-color:#ffffff;" onmouseover="dttd2_start()" onmouseout="dttd2_stop()">
+          <tr style="background-color:#ffffff;">
             <td style="padding:20px;">
               <div class="one">
-                <div class="two" id="dttd2_image">
+                <div class="two">
                   <img src="../images/dttd2.png" width="160">
                 </div>
               </div>
-              <script type="text/javascript">
-                function dttd2_start() {
-                  document.getElementById('dttd2_image').style.opacity = "1";
-                }
-                function dttd2_stop() {
-                  document.getElementById('dttd2_image').style.opacity = "0";
-                }
-                dttd2_stop();
-              </script>
             </td>
             <td style="padding:20px;">
               <a href="https://github.com/augcog/DTTD2">
@@ -107,4 +85,3 @@ author_profile: true
   </table>
 </body>
 </html>
-
