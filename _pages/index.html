@@ -4,6 +4,8 @@ title: ""
 permalink: /publications/
 author_profile: ture
 ---
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,8 +14,10 @@ author_profile: ture
   <meta name="author" content="Kenny Yao">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" href="../images/favicon/favicon.ico" type="image/x-icon">
-  <!-- 使用class或ID前缀来区分样式 -->
+  <!-- Remove external stylesheet if not needed -->
+  <!-- <link rel="stylesheet" href="stylesheet.css"> -->
   <style>
+    
     /* Fonts definitions */
     @font-face {
       font-family: 'Lato';
@@ -22,57 +26,72 @@ author_profile: ture
       src: local('Lato Italic'), local('Lato-Italic'), url(https://fonts.gstatic.com/s/lato/v15/S6u8w4BMUTPHjxsAUi-qNiXg7eU0.woff2) format('woff2');
       unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
     }
-    /* 使用更具体的选择器，比如给body添加class */
-    .keling-page body, .keling-page td, .keling-page th, .keling-page tr, .keling-page p, .keling-page a {
+
+    /* General styling */
+    #keling-page body, td, th, tr, p, a {
       font-family: 'Lato', Verdana, Helvetica, sans-serif;
-      font-size: 12px;
+      font-size: 12px; /* Increased font size for better readability */
     }
-    .keling-page h2 {
+
+    #keling-page h2 {
       margin: 0;
       font-weight: normal;
-      font-size: 24px;
+      font-size: 24px; /* Larger size for headings */
     }
-    .keling-page .papertitle, .keling-page strong {
-      font-size: 14px;
+
+    #keling-page .papertitle, strong {
+      font-size: 14px; /* Larger size for titles and emphasized text */
     }
-    .keling-page .name {
+
+    #keling-page .name {
       padding-top: 20px;
       margin: 0;
-      font-size: 34px;
+      font-size: 34px; /* Larger size for names */
     }
-    .keling-page a {
+
+    /* Link styling */
+    #keling-page a {
       color: #1772d0;
       text-decoration: none;
     }
-    .keling-page a:focus, .keling-page a:hover {
+
+    #keling-page a:focus, a:hover {
       color: #f09228;
-      text-decoration: underline;
+      text-decoration: underline; /* Added underline on hover for better accessibility */
     }
-    .keling-page .one, .keling-page .two {
-      width: 180px;
+
+    /* Image container styling */
+    #keling-page  .one, .two {
+      width: 180px; /* Adjusted to fit larger images */
       height: 180px;
       position: relative;
     }
-    .keling-page .two {
+
+    #keling-page .two {
       position: absolute;
       transition: opacity .2s ease-in-out;
     }
-    .keling-page span.highlight {
+
+    /* Highlighting */
+    #keling-page span.highlight {
       background-color: #ffffd0;
     }
-    .keling-page table, .keling-page th, .keling-page td {
+
+    /* No border styles for all tables */
+     #keling-page table, th, td {
       border: none;
       border-collapse: collapse;
     }
   </style>
 </head>
-<body class="keling-page">
+<body id="keling-page">
   <table style="width:100%; margin:auto;">
     <tr>
       <td>
         <!-- Research section -->
         <h2>Research Interest</h2>
         <p>I'm interested in computer vision, deep learning, large language models, and embodied AI.</p>
+
         <!-- Project entries -->
         <table style="width:100%; margin:auto;">
           <tr style="background-color:#ffffff;">
@@ -82,9 +101,12 @@ author_profile: ture
               </div>
             </td>
             <td style="padding:20px;">
-              <strong>Transferring Foundation Models for Generalizable Robotic Manipulation</strong><br>
-              Jiange Yang, Wenhui Tan, Chuhao Jin, <strong>Keling Yao</strong>, Bei Liu, Jianlong Fu, Ruihua Song, Gangshan Wu, Limin Wang<br>
-              <em>arXiv</em>, 2024<br>
+              <strong>Transferring Foundation Models for Generalizable Robotic Manipulation</strong>
+              <br>
+              Jiange Yang, Wenhui Tan, Chuhao Jin, <strong>Keling Yao</strong>, Bei Liu, Jianlong Fu, Ruihua Song, Gangshan Wu, Limin Wang
+              <br>
+              <em>arXiv</em>, 2024
+              <br>
               <a href="https://arxiv.org/abs/2306.05716">arXiv</a> /
               <a href="https://www.youtube.com/watch?v=1m9wNzfp_4E&t=1s">Video</a>
               <p>
@@ -99,9 +121,12 @@ author_profile: ture
               </div>
             </td>
             <td style="padding:20px;">
-              <strong>Robust Digital-Twin Localization via An RGBD-based Transformer Network and A Comprehensive Evaluation on a Mobile Dataset</strong><br>
-              Zixun Huang*, <strong>Keling Yao*</strong>, Seth Z. Zhao*, Chuanyu Pan*, Tianjian Xu, Weiyu Feng, Allen Y. Yang<br>
-              <em>arXiv</em>, 2024<br>
+              <strong>Robust Digital-Twin Localization via An RGBD-based Transformer Network and A Comprehensive Evaluation on a Mobile Dataset</strong>
+              <br>
+              Zixun Huang*, <strong>Keling Yao*</strong>, Seth Z. Zhao*, Chuanyu Pan*, Tianjian Xu, Weiyu Feng, Allen Y. Yang
+              <br>
+              <em>arXiv</em>, 2024
+              <br>
               <a href="https://github.com/augcog/DTTD2">project page</a> /
               <a href="https://arxiv.org/abs/2309.13570">arXiv</a> /
               <a href="https://youtu.be/QhYWyoPTmOk">Video</a>
@@ -116,4 +141,3 @@ author_profile: ture
   </table>
 </body>
 </html>
-
