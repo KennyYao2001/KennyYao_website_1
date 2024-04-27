@@ -75,19 +75,15 @@ author_profile: true
       background-color: #ffffd0;
     }
 
-    /* No border table styling */
-    .no-border-table {
-      border-collapse: collapse;
-      border-spacing: 0;
-    }
-
-    .no-border-table td, .no-border-table th {
+    /* No border styles for all tables */
+    table, th, td {
       border: none;
+      border-collapse: collapse;
     }
   </style>
 </head>
 <body>
-  <table class="no-border-table" style="width:100%; margin:auto;">
+  <table style="width:100%; margin:auto;">
     <tr>
       <td>
         <!-- Research section -->
@@ -95,7 +91,7 @@ author_profile: true
         <p>I'm interested in computer vision, deep learning, generative AI, and robot learning.</p>
 
         <!-- Project entries -->
-        <table class="no-border-table" style="width:100%; margin:auto;">
+        <table style="width:100%; margin:auto;">
           <tr style="background-color:#ffffff;">
             <td style="padding:20px;">
               <div class="one">
