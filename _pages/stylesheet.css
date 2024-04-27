@@ -133,3 +133,13 @@ h2 {
 span.highlight {
   background-color: #ffffd0;
 }
+
+/* 添加的表格样式 */
+.no-border-table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.no-border-table td, .no-border-table th {
+  border: none;
+}
