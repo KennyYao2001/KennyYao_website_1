@@ -17,7 +17,6 @@ author_profile: ture
   <!-- Remove external stylesheet if not needed -->
   <!-- <link rel="stylesheet" href="stylesheet.css"> -->
   <style>
-    
     /* Fonts definitions */
     @font-face {
       font-family: 'Lato';
@@ -28,63 +27,67 @@ author_profile: ture
     }
 
     /* General styling */
-    #keling-page body, td, th, tr, p, a {
+    body, td, th, tr, p, a {
       font-family: 'Lato', Verdana, Helvetica, sans-serif;
-      font-size: 12px; /* Increased font size for better readability */
+      font-size: 13px; /* Increased font size for better readability */
     }
 
-    #keling-page h2 {
+    h2 {
       margin: 0;
       font-weight: normal;
-      font-size: 24px; /* Larger size for headings */
+      font-size: 20px; /* Larger size for headings */
     }
 
-    #keling-page .papertitle, strong {
+    .papertitle, strong {
       font-size: 14px; /* Larger size for titles and emphasized text */
     }
 
-    #keling-page .name {
+    .name {
       padding-top: 20px;
       margin: 0;
       font-size: 34px; /* Larger size for names */
     }
 
     /* Link styling */
-    #keling-page a {
+    a {
       color: #1772d0;
       text-decoration: none;
     }
 
-    #keling-page a:focus, a:hover {
+    a:focus, a:hover {
       color: #f09228;
       text-decoration: underline; /* Added underline on hover for better accessibility */
     }
 
     /* Image container styling */
-    #keling-page  .one, .two {
+    .one, .two {
       width: 180px; /* Adjusted to fit larger images */
       height: 180px;
       position: relative;
+      display: flex;       /* 新增：启用Flexbox布局 */
+      justify-content: center; /* 新增：水平居中 */
+      align-items: center; /* 新增：垂直居中（如果你也想要垂直居中的话） */
     }
+  
 
-    #keling-page .two {
+    .two {
       position: absolute;
       transition: opacity .2s ease-in-out;
     }
 
     /* Highlighting */
-    #keling-page span.highlight {
+    span.highlight {
       background-color: #ffffd0;
     }
 
     /* No border styles for all tables */
-     #keling-page table, th, td {
+    table, th, td {
       border: none;
       border-collapse: collapse;
     }
   </style>
 </head>
-<body id="keling-page">
+<body>
   <table style="width:100%; margin:auto;">
     <tr>
       <td>
